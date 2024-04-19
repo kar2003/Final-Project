@@ -1,0 +1,15 @@
+{
+  "name": "stone-paper-scissor",
+  "version": "0.0.0",
+  "description": "simple stone paper scissor game which you can play for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Karuna Nair",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}

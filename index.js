@@ -8,7 +8,7 @@ const app = express();
 const __dirname = "C:/Users/Lisa/Desktop/JS Framework/Final Project";
 
 // Set up static files middleware to serve HTML, CSS, and JavaScript files
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "Controller")));
 
 
 // Define route to render user profile view

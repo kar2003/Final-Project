@@ -1,6 +1,4 @@
-// controller/userController.js
 
-// Import necessary modules and dependencies
 const UserModel = require('../model/userModel');
 const bcrypt = require('bcryptjs');
   
@@ -28,14 +26,7 @@ try {
 }
 
 }
-// async function makeMove(humanChoice) {
-//   // // Extract the player's choice from the request body
-//   // const choice = req.body.choice;
 
-//   // // Call your RockPaperScissorsAPI or implement your game logic here
-//   // // For now, let's just return the choice received from the client
-//   // return res.status(200).send(`You chose: ${choice}`);
-// }
 
 module.exports = {
   makeMove: makeMove

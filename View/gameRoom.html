@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Room</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .game-actions {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .game-actions button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .game-result {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Game Room</h1>
+        <div class="game-actions">
+            <button onclick="makeMove('stone')">Stone</button>
+            <button onclick="makeMove('paper')">Paper</button>
+            <button onclick="makeMove('scissors')">Scissors</button>
+        </div>
+        <div class="game-result" id="game-result">
+            <!-- Game result will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code for handling interactions (e.g., making a move)
+        function makeMove(choice) {
+            // Send the player's choice to the server and handle the game logic
+            // Example: You can use AJAX to send the player's choice to the server and update the game result accordingly
+            alert('You chose: ' + choice);
+        }
+    </script>
+</body>
+</html>
